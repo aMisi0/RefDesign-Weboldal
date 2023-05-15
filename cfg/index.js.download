@@ -1,0 +1,8 @@
+function viewFunction() {
+    const audio = document.getElementById("audio");
+    audio.play();
+    audio.volume = 0.1;
+    audio.loop = true;
+    document.getElementById("click").style.display = "none";
+    document.getElementById("container").style.display = "grid";
+}
